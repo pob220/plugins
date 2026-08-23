@@ -20,7 +20,7 @@
   <target-version>22.04</target-version>
   <target-arch>x86_64</target-arch>
   <tarball-url>
-    https://github.com/pob220/offlinetides_pi/releases/download/v1.0.2.0-alpha1/offlinetides_pi-1.0.2.0-ubuntu-x86_64-22.04-jammy.tar.gz
+    https://dl.cloudsmith.io/public/pob220/offlinetides-alpha-oss/raw/names/offlinetides_pi-1.0.2.0-ubuntu-wx32-x86_64-22.04-tarball/versions/1.0.2.0+22.2483ab1/offlinetides_pi-1.0.2.0-ubuntu-x86_64-22.04-jammy.tar.gz
   </tarball-url>
   <info-url> https://github.com/pob220/offlinetides_pi </info-url>
 </plugin>
