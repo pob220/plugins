@@ -14,13 +14,13 @@
     OfflineTides predicts offline water-level height at the chart cursor, an OpenCPN waypoint or mark, or manual WGS84 coordinates. It displays datum-labelled rolling or selected-date curves, interpolated high and low water events, local data quality and daylight-saving-aware display times while retaining UTC internally.
   </description>
 
-  <target>debian-x86_64</target>
+  <target>debian-arm64</target>
   <build-target>debian</build-target>
   <build-gtk>gtk3</build-gtk>
   <target-version>12</target-version>
-  <target-arch>x86_64</target-arch>
+  <target-arch>arm64</target-arch>
   <tarball-url>
-    https://dl.cloudsmith.io/public/pob220/offlinetides-alpha-oss/raw/names/offlinetides_pi-1.0.2.0-debian-x86_64-12-tarball/versions/1.0.2.0+22.2483ab1/offlinetides_pi-1.0.2.0-debian-x86_64-12-bookworm.tar.gz
+    https://dl.cloudsmith.io/public/pob220/offlinetides-alpha-oss/raw/names/offlinetides_pi-1.0.2.0-debian-arm64-12-tarball/versions/1.0.2.0+22.2483ab1/offlinetides_pi-1.0.2.0-debian-arm64-12-bookworm-arm64.tar.gz
   </tarball-url>
   <info-url> https://github.com/pob220/offlinetides_pi </info-url>
 </plugin>
