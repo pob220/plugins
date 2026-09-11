@@ -3,7 +3,7 @@
   <name> xWeatherRouting </name>
   <version> 1.17.1.0 </version>
   <release> 0 </release>
-  <summary> Advanced deterministic weather routing with departure and arrival planning. </summary>
+  <summary> Upgraded weather routing with departure and arrival planning. </summary>
 
   <api-version> 1.21 </api-version>
   <open-source> yes </open-source>
