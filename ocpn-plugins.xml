@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <plugins>
   <version>0.0.0</version>
-  <date>2026-10-04 21:31</date>
+  <date>2026-10-06 23:15</date>
   <plugin version="1">
     <name> Testplugin </name>
     <version> 1.0.361.0 </version>
@@ -2867,15 +2867,15 @@ https://dl.cloudsmith.io/public/opencpn/ocpn_draw-alpha/raw/names/ocpn_draw_pi-1
   </plugin>
   <plugin version="1">
     <name> xWeatherRouting </name>
-    <version> 1.25.0 </version>
+    <version> 1.26.0 </version>
     <release> 0 </release>
-    <summary>Weather routing, passage planning and existing-route chart checks.</summary>
+    <summary>Weather routing, faster optional chart awareness and route checks.</summary>
     <api-version> 1.21 </api-version>
     <open-source> yes </open-source>
     <author> Sean d'Epagnier; Weather Routing Plugin Team </author>
     <source> https://github.com/pob220/xweather_routing_pi </source>
     <description>
-      Check existing OpenCPN routes for charted land, drying areas, hazards, clearance and optional minimum depth without altering their waypoints. A per-leg report and chart markers distinguish hazards from unavailable coverage or depth; cancellation produces a partial report and route or chart changes invalidate results. Chart checks require a compatible host. WeatherRouting offers Auto, Quick, Standard, Professional and All (slow), with independent saved engine settings and explicit search presets. Auto falls back through Quick and Standard to Professional up to 400% effort. All compares four engines, including the internal Alternative engine, and shares a bounded extra-search allowance across successful engines. Optional fastest/comfort alternatives also work with individual engines and Auto, with saved percentage and seconds limits. A retained-route comparison table and slider balance passage time against discomfort exposure while preserving the worst known leg. Wind-only ranking is enabled by default and remembered. Extra comfort limits never reduce the ordinary engines' budgets; All initially selects the earliest validated arrival. Quick uses hardened contour routing with independent chronological validation. Standard provides bounded adaptive search; Professional keeps a validated Quick candidate and searches for a faster route with broader recovery methods. All support plugin-managed GSHHG shorelines; optional chart-backed safety requires a compatible host.
+      Improved optional chart-awareness performance with a compatible enhanced host; stock OpenCPN retains ordinary weather routing and GSHHG land avoidance. Check existing OpenCPN routes for charted land, drying areas, hazards, clearance and optional minimum depth without altering their waypoints. A per-leg report and chart markers distinguish hazards from unavailable coverage or depth; cancellation produces a partial report and route or chart changes invalidate results. Chart checks require a compatible host. WeatherRouting offers Auto, Quick, Standard, Professional and All (slow), with independent saved engine settings and explicit search presets. Auto falls back through Quick and Standard to Professional up to 400% effort. All compares four engines, including the internal Alternative engine, and shares a bounded extra-search allowance across successful engines. Optional fastest/comfort alternatives also work with individual engines and Auto, with saved percentage and seconds limits. A retained-route comparison table and slider balance passage time against discomfort exposure while preserving the worst known leg. Wind-only ranking is enabled by default and remembered. Extra comfort limits never reduce the ordinary engines' budgets; All initially selects the earliest validated arrival. Quick uses hardened contour routing with independent chronological validation. Standard provides bounded adaptive search; Professional keeps a validated Quick candidate and searches for a faster route with broader recovery methods. All support plugin-managed GSHHG shorelines; optional chart-backed safety requires a compatible host.
     </description>
     <target>msvc-wx32</target>
     <build-target>msvc</build-target>
@@ -2883,22 +2883,22 @@ https://dl.cloudsmith.io/public/opencpn/ocpn_draw-alpha/raw/names/ocpn_draw_pi-1
     <target-version>10.0.20348</target-version>
     <target-arch>x86</target-arch>
     <tarball-url>
-      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.25.0-msvc-wx32-10.0.20348-x86-tarball/versions/1.25.0+1332.b15127a/xweather_routing_pi-1.25.0-msvc-x86-wx32-10.0.20348-MSVC.tar.gz
+      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.26.0-msvc-wx32-10.0.20348-x86-tarball/versions/1.26.0+1426.caa9152/xweather_routing_pi-1.26.0-msvc-x86-wx32-10.0.20348-MSVC.tar.gz
     </tarball-url>
-    <tarball-checksum> 4cfc6b835cdfa70e2e81fabce0f549b4b3cc90e33c3db55710c6f195c540f2e4 </tarball-checksum>
+    <tarball-checksum> ff332bd1c0f9d079be9100df8a80035ed7f02a03c39e7be7fdc08b423f58f607 </tarball-checksum>
     <info-url> https://github.com/pob220/xweather_routing_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> xWeatherRouting </name>
-    <version> 1.25.0 </version>
+    <version> 1.26.0 </version>
     <release> 0 </release>
-    <summary>Weather routing, passage planning and existing-route chart checks.</summary>
+    <summary>Weather routing, faster optional chart awareness and route checks.</summary>
     <api-version> 1.21 </api-version>
     <open-source> yes </open-source>
     <author> Sean d'Epagnier; Weather Routing Plugin Team </author>
     <source> https://github.com/pob220/xweather_routing_pi </source>
     <description>
-      Check existing OpenCPN routes for charted land, drying areas, hazards, clearance and optional minimum depth without altering their waypoints. A per-leg report and chart markers distinguish hazards from unavailable coverage or depth; cancellation produces a partial report and route or chart changes invalidate results. Chart checks require a compatible host. WeatherRouting offers Auto, Quick, Standard, Professional and All (slow), with independent saved engine settings and explicit search presets. Auto falls back through Quick and Standard to Professional up to 400% effort. All compares four engines, including the internal Alternative engine, and shares a bounded extra-search allowance across successful engines. Optional fastest/comfort alternatives also work with individual engines and Auto, with saved percentage and seconds limits. A retained-route comparison table and slider balance passage time against discomfort exposure while preserving the worst known leg. Wind-only ranking is enabled by default and remembered. Extra comfort limits never reduce the ordinary engines' budgets; All initially selects the earliest validated arrival. Quick uses hardened contour routing with independent chronological validation. Standard provides bounded adaptive search; Professional keeps a validated Quick candidate and searches for a faster route with broader recovery methods. All support plugin-managed GSHHG shorelines; optional chart-backed safety requires a compatible host.
+      Improved optional chart-awareness performance with a compatible enhanced host; stock OpenCPN retains ordinary weather routing and GSHHG land avoidance. Check existing OpenCPN routes for charted land, drying areas, hazards, clearance and optional minimum depth without altering their waypoints. A per-leg report and chart markers distinguish hazards from unavailable coverage or depth; cancellation produces a partial report and route or chart changes invalidate results. Chart checks require a compatible host. WeatherRouting offers Auto, Quick, Standard, Professional and All (slow), with independent saved engine settings and explicit search presets. Auto falls back through Quick and Standard to Professional up to 400% effort. All compares four engines, including the internal Alternative engine, and shares a bounded extra-search allowance across successful engines. Optional fastest/comfort alternatives also work with individual engines and Auto, with saved percentage and seconds limits. A retained-route comparison table and slider balance passage time against discomfort exposure while preserving the worst known leg. Wind-only ranking is enabled by default and remembered. Extra comfort limits never reduce the ordinary engines' budgets; All initially selects the earliest validated arrival. Quick uses hardened contour routing with independent chronological validation. Standard provides bounded adaptive search; Professional keeps a validated Quick candidate and searches for a faster route with broader recovery methods. All support plugin-managed GSHHG shorelines; optional chart-backed safety requires a compatible host.
     </description>
     <target>msvc-64</target>
     <build-target>msvc</build-target>
@@ -2906,22 +2906,22 @@ https://dl.cloudsmith.io/public/opencpn/ocpn_draw-alpha/raw/names/ocpn_draw_pi-1
     <target-version>10</target-version>
     <target-arch>x86_64</target-arch>
     <tarball-url>
-      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.25.0-msvc-64-10-x86_64-tarball/versions/1.25.0+1332.b15127a/xweather_routing_pi-1.25.0-msvc-64-x86_64-10.0-MSVC-x64.tar.gz
+      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.26.0-msvc-64-10-x86_64-tarball/versions/1.26.0+1426.caa9152/xweather_routing_pi-1.26.0-msvc-64-x86_64-10.0-MSVC-x64.tar.gz
     </tarball-url>
-    <tarball-checksum> 87c74acdff26465f99f44a2ec2320641b38fbac5c60baf87d4a95153a28a77b0 </tarball-checksum>
+    <tarball-checksum> 25b5aebe0449d87032c4d992eeed9949ddbe0cb7e1de6ec16b8187c001828b14 </tarball-checksum>
     <info-url> https://github.com/pob220/xweather_routing_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> xWeatherRouting </name>
-    <version> 1.25.0 </version>
+    <version> 1.26.0 </version>
     <release> 0 </release>
-    <summary>Weather routing, passage planning and existing-route chart checks.</summary>
+    <summary>Weather routing, faster optional chart awareness and route checks.</summary>
     <api-version> 1.21 </api-version>
     <open-source> yes </open-source>
     <author> Sean d'Epagnier; Weather Routing Plugin Team </author>
     <source> https://github.com/pob220/xweather_routing_pi </source>
     <description>
-      Check existing OpenCPN routes for charted land, drying areas, hazards, clearance and optional minimum depth without altering their waypoints. A per-leg report and chart markers distinguish hazards from unavailable coverage or depth; cancellation produces a partial report and route or chart changes invalidate results. Chart checks require a compatible host. WeatherRouting offers Auto, Quick, Standard, Professional and All (slow), with independent saved engine settings and explicit search presets. Auto falls back through Quick and Standard to Professional up to 400% effort. All compares four engines, including the internal Alternative engine, and shares a bounded extra-search allowance across successful engines. Optional fastest/comfort alternatives also work with individual engines and Auto, with saved percentage and seconds limits. A retained-route comparison table and slider balance passage time against discomfort exposure while preserving the worst known leg. Wind-only ranking is enabled by default and remembered. Extra comfort limits never reduce the ordinary engines' budgets; All initially selects the earliest validated arrival. Quick uses hardened contour routing with independent chronological validation. Standard provides bounded adaptive search; Professional keeps a validated Quick candidate and searches for a faster route with broader recovery methods. All support plugin-managed GSHHG shorelines; optional chart-backed safety requires a compatible host.
+      Improved optional chart-awareness performance with a compatible enhanced host; stock OpenCPN retains ordinary weather routing and GSHHG land avoidance. Check existing OpenCPN routes for charted land, drying areas, hazards, clearance and optional minimum depth without altering their waypoints. A per-leg report and chart markers distinguish hazards from unavailable coverage or depth; cancellation produces a partial report and route or chart changes invalidate results. Chart checks require a compatible host. WeatherRouting offers Auto, Quick, Standard, Professional and All (slow), with independent saved engine settings and explicit search presets. Auto falls back through Quick and Standard to Professional up to 400% effort. All compares four engines, including the internal Alternative engine, and shares a bounded extra-search allowance across successful engines. Optional fastest/comfort alternatives also work with individual engines and Auto, with saved percentage and seconds limits. A retained-route comparison table and slider balance passage time against discomfort exposure while preserving the worst known leg. Wind-only ranking is enabled by default and remembered. Extra comfort limits never reduce the ordinary engines' budgets; All initially selects the earliest validated arrival. Quick uses hardened contour routing with independent chronological validation. Standard provides bounded adaptive search; Professional keeps a validated Quick candidate and searches for a faster route with broader recovery methods. All support plugin-managed GSHHG shorelines; optional chart-backed safety requires a compatible host.
     </description>
     <target>debian-x86_64</target>
     <build-target>debian</build-target>
@@ -2929,22 +2929,22 @@ https://dl.cloudsmith.io/public/opencpn/ocpn_draw-alpha/raw/names/ocpn_draw_pi-1
     <target-version>13</target-version>
     <target-arch>x86_64</target-arch>
     <tarball-url>
-      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.25.0-debian-x86_64-13-x86_64-tarball/versions/1.25.0+1332.b15127a/xweather_routing_pi-1.25.0-debian-x86_64-13-trixie.tar.gz
+      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.26.0-debian-x86_64-13-x86_64-tarball/versions/1.26.0+1426.caa9152/xweather_routing_pi-1.26.0-debian-x86_64-13-trixie.tar.gz
     </tarball-url>
-    <tarball-checksum> 90b0602b2f0ed14e237da2be0868d813dd74991b3c577c97b7319f26253ef713 </tarball-checksum>
+    <tarball-checksum> 1e9faa21414e95ec1e9c3c6178187c3c82884dc4f3f1fbddd8052f3c89d5af0b </tarball-checksum>
     <info-url> https://github.com/pob220/xweather_routing_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> xWeatherRouting </name>
-    <version> 1.25.0 </version>
+    <version> 1.26.0 </version>
     <release> 0 </release>
-    <summary>Weather routing, passage planning and existing-route chart checks.</summary>
+    <summary>Weather routing, faster optional chart awareness and route checks.</summary>
     <api-version> 1.21 </api-version>
     <open-source> yes </open-source>
     <author> Sean d'Epagnier; Weather Routing Plugin Team </author>
     <source> https://github.com/pob220/xweather_routing_pi </source>
     <description>
-      Check existing OpenCPN routes for charted land, drying areas, hazards, clearance and optional minimum depth without altering their waypoints. A per-leg report and chart markers distinguish hazards from unavailable coverage or depth; cancellation produces a partial report and route or chart changes invalidate results. Chart checks require a compatible host. WeatherRouting offers Auto, Quick, Standard, Professional and All (slow), with independent saved engine settings and explicit search presets. Auto falls back through Quick and Standard to Professional up to 400% effort. All compares four engines, including the internal Alternative engine, and shares a bounded extra-search allowance across successful engines. Optional fastest/comfort alternatives also work with individual engines and Auto, with saved percentage and seconds limits. A retained-route comparison table and slider balance passage time against discomfort exposure while preserving the worst known leg. Wind-only ranking is enabled by default and remembered. Extra comfort limits never reduce the ordinary engines' budgets; All initially selects the earliest validated arrival. Quick uses hardened contour routing with independent chronological validation. Standard provides bounded adaptive search; Professional keeps a validated Quick candidate and searches for a faster route with broader recovery methods. All support plugin-managed GSHHG shorelines; optional chart-backed safety requires a compatible host.
+      Improved optional chart-awareness performance with a compatible enhanced host; stock OpenCPN retains ordinary weather routing and GSHHG land avoidance. Check existing OpenCPN routes for charted land, drying areas, hazards, clearance and optional minimum depth without altering their waypoints. A per-leg report and chart markers distinguish hazards from unavailable coverage or depth; cancellation produces a partial report and route or chart changes invalidate results. Chart checks require a compatible host. WeatherRouting offers Auto, Quick, Standard, Professional and All (slow), with independent saved engine settings and explicit search presets. Auto falls back through Quick and Standard to Professional up to 400% effort. All compares four engines, including the internal Alternative engine, and shares a bounded extra-search allowance across successful engines. Optional fastest/comfort alternatives also work with individual engines and Auto, with saved percentage and seconds limits. A retained-route comparison table and slider balance passage time against discomfort exposure while preserving the worst known leg. Wind-only ranking is enabled by default and remembered. Extra comfort limits never reduce the ordinary engines' budgets; All initially selects the earliest validated arrival. Quick uses hardened contour routing with independent chronological validation. Standard provides bounded adaptive search; Professional keeps a validated Quick candidate and searches for a faster route with broader recovery methods. All support plugin-managed GSHHG shorelines; optional chart-backed safety requires a compatible host.
     </description>
     <target>ubuntu-x86_64</target>
     <build-target>ubuntu</build-target>
@@ -2952,22 +2952,22 @@ https://dl.cloudsmith.io/public/opencpn/ocpn_draw-alpha/raw/names/ocpn_draw_pi-1
     <target-version>24.04</target-version>
     <target-arch>x86_64</target-arch>
     <tarball-url>
-      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.25.0-ubuntu-x86_64-24.04-x86_64-tarball/versions/1.25.0+1332.b15127a/xweather_routing_pi-1.25.0-ubuntu-x86_64-24.04-noble.tar.gz
+      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.26.0-ubuntu-x86_64-24.04-x86_64-tarball/versions/1.26.0+1426.caa9152/xweather_routing_pi-1.26.0-ubuntu-x86_64-24.04-noble.tar.gz
     </tarball-url>
-    <tarball-checksum> d6e5193828bc1af0d928145bacff7f604c9bdec773272f7ac26a77e46b08b14a </tarball-checksum>
+    <tarball-checksum> 6853a6f66787ec04f4b80b05eb8b712a274240045c41bbda4da13e692e194ac0 </tarball-checksum>
     <info-url> https://github.com/pob220/xweather_routing_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> xWeatherRouting </name>
-    <version> 1.25.0 </version>
+    <version> 1.26.0 </version>
     <release> 0 </release>
-    <summary>Weather routing, passage planning and existing-route chart checks.</summary>
+    <summary>Weather routing, faster optional chart awareness and route checks.</summary>
     <api-version> 1.21 </api-version>
     <open-source> yes </open-source>
     <author> Sean d'Epagnier; Weather Routing Plugin Team </author>
     <source> https://github.com/pob220/xweather_routing_pi </source>
     <description>
-      Check existing OpenCPN routes for charted land, drying areas, hazards, clearance and optional minimum depth without altering their waypoints. A per-leg report and chart markers distinguish hazards from unavailable coverage or depth; cancellation produces a partial report and route or chart changes invalidate results. Chart checks require a compatible host. WeatherRouting offers Auto, Quick, Standard, Professional and All (slow), with independent saved engine settings and explicit search presets. Auto falls back through Quick and Standard to Professional up to 400% effort. All compares four engines, including the internal Alternative engine, and shares a bounded extra-search allowance across successful engines. Optional fastest/comfort alternatives also work with individual engines and Auto, with saved percentage and seconds limits. A retained-route comparison table and slider balance passage time against discomfort exposure while preserving the worst known leg. Wind-only ranking is enabled by default and remembered. Extra comfort limits never reduce the ordinary engines' budgets; All initially selects the earliest validated arrival. Quick uses hardened contour routing with independent chronological validation. Standard provides bounded adaptive search; Professional keeps a validated Quick candidate and searches for a faster route with broader recovery methods. All support plugin-managed GSHHG shorelines; optional chart-backed safety requires a compatible host.
+      Improved optional chart-awareness performance with a compatible enhanced host; stock OpenCPN retains ordinary weather routing and GSHHG land avoidance. Check existing OpenCPN routes for charted land, drying areas, hazards, clearance and optional minimum depth without altering their waypoints. A per-leg report and chart markers distinguish hazards from unavailable coverage or depth; cancellation produces a partial report and route or chart changes invalidate results. Chart checks require a compatible host. WeatherRouting offers Auto, Quick, Standard, Professional and All (slow), with independent saved engine settings and explicit search presets. Auto falls back through Quick and Standard to Professional up to 400% effort. All compares four engines, including the internal Alternative engine, and shares a bounded extra-search allowance across successful engines. Optional fastest/comfort alternatives also work with individual engines and Auto, with saved percentage and seconds limits. A retained-route comparison table and slider balance passage time against discomfort exposure while preserving the worst known leg. Wind-only ranking is enabled by default and remembered. Extra comfort limits never reduce the ordinary engines' budgets; All initially selects the earliest validated arrival. Quick uses hardened contour routing with independent chronological validation. Standard provides bounded adaptive search; Professional keeps a validated Quick candidate and searches for a faster route with broader recovery methods. All support plugin-managed GSHHG shorelines; optional chart-backed safety requires a compatible host.
     </description>
     <target>darwin-wx32</target>
     <build-target>darwin</build-target>
@@ -2975,22 +2975,22 @@ https://dl.cloudsmith.io/public/opencpn/ocpn_draw-alpha/raw/names/ocpn_draw_pi-1
     <target-version>15.3.2</target-version>
     <target-arch>arm64</target-arch>
     <tarball-url>
-      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.25.0-darwin-wx32-15.3.2-arm64-tarball/versions/1.25.0+1332.b15127a/xweather_routing_pi-1.25.0-darwin-wx32-arm64-15.3.2-macos-arm64.tar.gz
+      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.26.0-darwin-wx32-15.3.2-arm64-tarball/versions/1.26.0+1426.caa9152/xweather_routing_pi-1.26.0-darwin-wx32-arm64-15.3.2-macos-arm64.tar.gz
     </tarball-url>
-    <tarball-checksum> 9cb244154c1336b3d26be460f40fcd37f44fb9abe80bad15786cf6502cd36ba5 </tarball-checksum>
+    <tarball-checksum> a1f35a7dc67b28d0918cee2320091aefd1e6e958144d839365fd69a08c65dc5b </tarball-checksum>
     <info-url> https://github.com/pob220/xweather_routing_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> xWeatherRouting </name>
-    <version> 1.25.0 </version>
+    <version> 1.26.0 </version>
     <release> 0 </release>
-    <summary>Weather routing, passage planning and existing-route chart checks.</summary>
+    <summary>Weather routing, faster optional chart awareness and route checks.</summary>
     <api-version> 1.21 </api-version>
     <open-source> yes </open-source>
     <author> Sean d'Epagnier; Weather Routing Plugin Team </author>
     <source> https://github.com/pob220/xweather_routing_pi </source>
     <description>
-      Check existing OpenCPN routes for charted land, drying areas, hazards, clearance and optional minimum depth without altering their waypoints. A per-leg report and chart markers distinguish hazards from unavailable coverage or depth; cancellation produces a partial report and route or chart changes invalidate results. Chart checks require a compatible host. WeatherRouting offers Auto, Quick, Standard, Professional and All (slow), with independent saved engine settings and explicit search presets. Auto falls back through Quick and Standard to Professional up to 400% effort. All compares four engines, including the internal Alternative engine, and shares a bounded extra-search allowance across successful engines. Optional fastest/comfort alternatives also work with individual engines and Auto, with saved percentage and seconds limits. A retained-route comparison table and slider balance passage time against discomfort exposure while preserving the worst known leg. Wind-only ranking is enabled by default and remembered. Extra comfort limits never reduce the ordinary engines' budgets; All initially selects the earliest validated arrival. Quick uses hardened contour routing with independent chronological validation. Standard provides bounded adaptive search; Professional keeps a validated Quick candidate and searches for a faster route with broader recovery methods. All support plugin-managed GSHHG shorelines; optional chart-backed safety requires a compatible host.
+      Improved optional chart-awareness performance with a compatible enhanced host; stock OpenCPN retains ordinary weather routing and GSHHG land avoidance. Check existing OpenCPN routes for charted land, drying areas, hazards, clearance and optional minimum depth without altering their waypoints. A per-leg report and chart markers distinguish hazards from unavailable coverage or depth; cancellation produces a partial report and route or chart changes invalidate results. Chart checks require a compatible host. WeatherRouting offers Auto, Quick, Standard, Professional and All (slow), with independent saved engine settings and explicit search presets. Auto falls back through Quick and Standard to Professional up to 400% effort. All compares four engines, including the internal Alternative engine, and shares a bounded extra-search allowance across successful engines. Optional fastest/comfort alternatives also work with individual engines and Auto, with saved percentage and seconds limits. A retained-route comparison table and slider balance passage time against discomfort exposure while preserving the worst known leg. Wind-only ranking is enabled by default and remembered. Extra comfort limits never reduce the ordinary engines' budgets; All initially selects the earliest validated arrival. Quick uses hardened contour routing with independent chronological validation. Standard provides bounded adaptive search; Professional keeps a validated Quick candidate and searches for a faster route with broader recovery methods. All support plugin-managed GSHHG shorelines; optional chart-backed safety requires a compatible host.
     </description>
     <target>ubuntu-x86_64</target>
     <build-target>ubuntu</build-target>
@@ -2998,22 +2998,22 @@ https://dl.cloudsmith.io/public/opencpn/ocpn_draw-alpha/raw/names/ocpn_draw_pi-1
     <target-version>22.04</target-version>
     <target-arch>x86_64</target-arch>
     <tarball-url>
-      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.25.0-ubuntu-x86_64-22.04-x86_64-tarball/versions/1.25.0+1332.b15127a/xweather_routing_pi-1.25.0-ubuntu-x86_64-22.04-jammy.tar.gz
+      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.26.0-ubuntu-x86_64-22.04-x86_64-tarball/versions/1.26.0+1426.caa9152/xweather_routing_pi-1.26.0-ubuntu-x86_64-22.04-jammy.tar.gz
     </tarball-url>
-    <tarball-checksum> d35d29844d5c80edb17a8fbea5baf28b03f365f4f140d9e32482dc595b8a4a0c </tarball-checksum>
+    <tarball-checksum> d008516ac6467f9202a14ea0430a0c241bed0b6be6891b12cf81873b00bad272 </tarball-checksum>
     <info-url> https://github.com/pob220/xweather_routing_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> xWeatherRouting </name>
-    <version> 1.25.0 </version>
+    <version> 1.26.0 </version>
     <release> 0 </release>
-    <summary>Weather routing, passage planning and existing-route chart checks.</summary>
+    <summary>Weather routing, faster optional chart awareness and route checks.</summary>
     <api-version> 1.21 </api-version>
     <open-source> yes </open-source>
     <author> Sean d'Epagnier; Weather Routing Plugin Team </author>
     <source> https://github.com/pob220/xweather_routing_pi </source>
     <description>
-      Check existing OpenCPN routes for charted land, drying areas, hazards, clearance and optional minimum depth without altering their waypoints. A per-leg report and chart markers distinguish hazards from unavailable coverage or depth; cancellation produces a partial report and route or chart changes invalidate results. Chart checks require a compatible host. WeatherRouting offers Auto, Quick, Standard, Professional and All (slow), with independent saved engine settings and explicit search presets. Auto falls back through Quick and Standard to Professional up to 400% effort. All compares four engines, including the internal Alternative engine, and shares a bounded extra-search allowance across successful engines. Optional fastest/comfort alternatives also work with individual engines and Auto, with saved percentage and seconds limits. A retained-route comparison table and slider balance passage time against discomfort exposure while preserving the worst known leg. Wind-only ranking is enabled by default and remembered. Extra comfort limits never reduce the ordinary engines' budgets; All initially selects the earliest validated arrival. Quick uses hardened contour routing with independent chronological validation. Standard provides bounded adaptive search; Professional keeps a validated Quick candidate and searches for a faster route with broader recovery methods. All support plugin-managed GSHHG shorelines; optional chart-backed safety requires a compatible host.
+      Improved optional chart-awareness performance with a compatible enhanced host; stock OpenCPN retains ordinary weather routing and GSHHG land avoidance. Check existing OpenCPN routes for charted land, drying areas, hazards, clearance and optional minimum depth without altering their waypoints. A per-leg report and chart markers distinguish hazards from unavailable coverage or depth; cancellation produces a partial report and route or chart changes invalidate results. Chart checks require a compatible host. WeatherRouting offers Auto, Quick, Standard, Professional and All (slow), with independent saved engine settings and explicit search presets. Auto falls back through Quick and Standard to Professional up to 400% effort. All compares four engines, including the internal Alternative engine, and shares a bounded extra-search allowance across successful engines. Optional fastest/comfort alternatives also work with individual engines and Auto, with saved percentage and seconds limits. A retained-route comparison table and slider balance passage time against discomfort exposure while preserving the worst known leg. Wind-only ranking is enabled by default and remembered. Extra comfort limits never reduce the ordinary engines' budgets; All initially selects the earliest validated arrival. Quick uses hardened contour routing with independent chronological validation. Standard provides bounded adaptive search; Professional keeps a validated Quick candidate and searches for a faster route with broader recovery methods. All support plugin-managed GSHHG shorelines; optional chart-backed safety requires a compatible host.
     </description>
     <target>flatpak-32-x86_64</target>
     <build-target>flatpak</build-target>
@@ -3021,22 +3021,22 @@ https://dl.cloudsmith.io/public/opencpn/ocpn_draw-alpha/raw/names/ocpn_draw_pi-1
     <target-version>25.08</target-version>
     <target-arch>x86_64</target-arch>
     <tarball-url>
-      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.25.0-flatpak-32-x86_64-25.08-x86_64-tarball/versions/1.25.0+1332.b15127a/xweather_routing_pi-1.25.0-x86_64-32_flatpak-25.08.tar.gz
+      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.26.0-flatpak-32-x86_64-25.08-x86_64-tarball/versions/1.26.0+1426.caa9152/xweather_routing_pi-1.26.0-x86_64-32_flatpak-25.08.tar.gz
     </tarball-url>
-    <tarball-checksum> c3825f734441d34a25b3d112304323191ac3ac7c4a1cb609cff6e0fabda157ad </tarball-checksum>
+    <tarball-checksum> f0d2047eb21b422fe9d3b6b173f40ddfe9238920be553e0d8293cb75831376df </tarball-checksum>
     <info-url> https://github.com/pob220/xweather_routing_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> xWeatherRouting </name>
-    <version> 1.25.0 </version>
+    <version> 1.26.0 </version>
     <release> 0 </release>
-    <summary>Weather routing, passage planning and existing-route chart checks.</summary>
+    <summary>Weather routing, faster optional chart awareness and route checks.</summary>
     <api-version> 1.21 </api-version>
     <open-source> yes </open-source>
     <author> Sean d'Epagnier; Weather Routing Plugin Team </author>
     <source> https://github.com/pob220/xweather_routing_pi </source>
     <description>
-      Check existing OpenCPN routes for charted land, drying areas, hazards, clearance and optional minimum depth without altering their waypoints. A per-leg report and chart markers distinguish hazards from unavailable coverage or depth; cancellation produces a partial report and route or chart changes invalidate results. Chart checks require a compatible host. WeatherRouting offers Auto, Quick, Standard, Professional and All (slow), with independent saved engine settings and explicit search presets. Auto falls back through Quick and Standard to Professional up to 400% effort. All compares four engines, including the internal Alternative engine, and shares a bounded extra-search allowance across successful engines. Optional fastest/comfort alternatives also work with individual engines and Auto, with saved percentage and seconds limits. A retained-route comparison table and slider balance passage time against discomfort exposure while preserving the worst known leg. Wind-only ranking is enabled by default and remembered. Extra comfort limits never reduce the ordinary engines' budgets; All initially selects the earliest validated arrival. Quick uses hardened contour routing with independent chronological validation. Standard provides bounded adaptive search; Professional keeps a validated Quick candidate and searches for a faster route with broader recovery methods. All support plugin-managed GSHHG shorelines; optional chart-backed safety requires a compatible host.
+      Improved optional chart-awareness performance with a compatible enhanced host; stock OpenCPN retains ordinary weather routing and GSHHG land avoidance. Check existing OpenCPN routes for charted land, drying areas, hazards, clearance and optional minimum depth without altering their waypoints. A per-leg report and chart markers distinguish hazards from unavailable coverage or depth; cancellation produces a partial report and route or chart changes invalidate results. Chart checks require a compatible host. WeatherRouting offers Auto, Quick, Standard, Professional and All (slow), with independent saved engine settings and explicit search presets. Auto falls back through Quick and Standard to Professional up to 400% effort. All compares four engines, including the internal Alternative engine, and shares a bounded extra-search allowance across successful engines. Optional fastest/comfort alternatives also work with individual engines and Auto, with saved percentage and seconds limits. A retained-route comparison table and slider balance passage time against discomfort exposure while preserving the worst known leg. Wind-only ranking is enabled by default and remembered. Extra comfort limits never reduce the ordinary engines' budgets; All initially selects the earliest validated arrival. Quick uses hardened contour routing with independent chronological validation. Standard provides bounded adaptive search; Professional keeps a validated Quick candidate and searches for a faster route with broader recovery methods. All support plugin-managed GSHHG shorelines; optional chart-backed safety requires a compatible host.
     </description>
     <target>flatpak-32-aarch64</target>
     <build-target>flatpak</build-target>
@@ -3044,22 +3044,22 @@ https://dl.cloudsmith.io/public/opencpn/ocpn_draw-alpha/raw/names/ocpn_draw_pi-1
     <target-version>25.08</target-version>
     <target-arch>aarch64</target-arch>
     <tarball-url>
-      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.25.0-flatpak-32-aarch64-25.08-aarch64-tarball/versions/1.25.0+1332.b15127a/xweather_routing_pi-1.25.0-aarch64-32_flatpak-25.08.tar.gz
+      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.26.0-flatpak-32-aarch64-25.08-aarch64-tarball/versions/1.26.0+1426.caa9152/xweather_routing_pi-1.26.0-aarch64-32_flatpak-25.08.tar.gz
     </tarball-url>
-    <tarball-checksum> 75d4d2be3c1ec0a6f13df759b9291ee4ba12ad37526f9aacd124dcc08853e72d </tarball-checksum>
+    <tarball-checksum> e97bb1164bba88756dcf2effb45b1d143f55e389e235755b2d47dd7fbb72563a </tarball-checksum>
     <info-url> https://github.com/pob220/xweather_routing_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> xWeatherRouting </name>
-    <version> 1.25.0 </version>
+    <version> 1.26.0 </version>
     <release> 0 </release>
-    <summary>Weather routing, passage planning and existing-route chart checks.</summary>
+    <summary>Weather routing, faster optional chart awareness and route checks.</summary>
     <api-version> 1.21 </api-version>
     <open-source> yes </open-source>
     <author> Sean d'Epagnier; Weather Routing Plugin Team </author>
     <source> https://github.com/pob220/xweather_routing_pi </source>
     <description>
-      Check existing OpenCPN routes for charted land, drying areas, hazards, clearance and optional minimum depth without altering their waypoints. A per-leg report and chart markers distinguish hazards from unavailable coverage or depth; cancellation produces a partial report and route or chart changes invalidate results. Chart checks require a compatible host. WeatherRouting offers Auto, Quick, Standard, Professional and All (slow), with independent saved engine settings and explicit search presets. Auto falls back through Quick and Standard to Professional up to 400% effort. All compares four engines, including the internal Alternative engine, and shares a bounded extra-search allowance across successful engines. Optional fastest/comfort alternatives also work with individual engines and Auto, with saved percentage and seconds limits. A retained-route comparison table and slider balance passage time against discomfort exposure while preserving the worst known leg. Wind-only ranking is enabled by default and remembered. Extra comfort limits never reduce the ordinary engines' budgets; All initially selects the earliest validated arrival. Quick uses hardened contour routing with independent chronological validation. Standard provides bounded adaptive search; Professional keeps a validated Quick candidate and searches for a faster route with broader recovery methods. All support plugin-managed GSHHG shorelines; optional chart-backed safety requires a compatible host.
+      Improved optional chart-awareness performance with a compatible enhanced host; stock OpenCPN retains ordinary weather routing and GSHHG land avoidance. Check existing OpenCPN routes for charted land, drying areas, hazards, clearance and optional minimum depth without altering their waypoints. A per-leg report and chart markers distinguish hazards from unavailable coverage or depth; cancellation produces a partial report and route or chart changes invalidate results. Chart checks require a compatible host. WeatherRouting offers Auto, Quick, Standard, Professional and All (slow), with independent saved engine settings and explicit search presets. Auto falls back through Quick and Standard to Professional up to 400% effort. All compares four engines, including the internal Alternative engine, and shares a bounded extra-search allowance across successful engines. Optional fastest/comfort alternatives also work with individual engines and Auto, with saved percentage and seconds limits. A retained-route comparison table and slider balance passage time against discomfort exposure while preserving the worst known leg. Wind-only ranking is enabled by default and remembered. Extra comfort limits never reduce the ordinary engines' budgets; All initially selects the earliest validated arrival. Quick uses hardened contour routing with independent chronological validation. Standard provides bounded adaptive search; Professional keeps a validated Quick candidate and searches for a faster route with broader recovery methods. All support plugin-managed GSHHG shorelines; optional chart-backed safety requires a compatible host.
     </description>
     <target>debian-arm64</target>
     <build-target>debian</build-target>
@@ -3067,22 +3067,22 @@ https://dl.cloudsmith.io/public/opencpn/ocpn_draw-alpha/raw/names/ocpn_draw_pi-1
     <target-version>12</target-version>
     <target-arch>arm64</target-arch>
     <tarball-url>
-      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.25.0-debian-arm64-12-arm64-tarball/versions/1.25.0+1332.b15127a/xweather_routing_pi-1.25.0-debian-arm64-12-bookworm-arm64.tar.gz
+      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.26.0-debian-arm64-12-arm64-tarball/versions/1.26.0+1426.caa9152/xweather_routing_pi-1.26.0-debian-arm64-12-bookworm-arm64.tar.gz
     </tarball-url>
-    <tarball-checksum> 923485e2f95b565446c4e39b1fcdce8b38697d59dcaa3d7755bcd903d0f676ba </tarball-checksum>
+    <tarball-checksum> 9498f772988620d79263c240fdf944b2596b58a1803010c304b16b82a0586e22 </tarball-checksum>
     <info-url> https://github.com/pob220/xweather_routing_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> xWeatherRouting </name>
-    <version> 1.25.0 </version>
+    <version> 1.26.0 </version>
     <release> 0 </release>
-    <summary>Weather routing, passage planning and existing-route chart checks.</summary>
+    <summary>Weather routing, faster optional chart awareness and route checks.</summary>
     <api-version> 1.21 </api-version>
     <open-source> yes </open-source>
     <author> Sean d'Epagnier; Weather Routing Plugin Team </author>
     <source> https://github.com/pob220/xweather_routing_pi </source>
     <description>
-      Check existing OpenCPN routes for charted land, drying areas, hazards, clearance and optional minimum depth without altering their waypoints. A per-leg report and chart markers distinguish hazards from unavailable coverage or depth; cancellation produces a partial report and route or chart changes invalidate results. Chart checks require a compatible host. WeatherRouting offers Auto, Quick, Standard, Professional and All (slow), with independent saved engine settings and explicit search presets. Auto falls back through Quick and Standard to Professional up to 400% effort. All compares four engines, including the internal Alternative engine, and shares a bounded extra-search allowance across successful engines. Optional fastest/comfort alternatives also work with individual engines and Auto, with saved percentage and seconds limits. A retained-route comparison table and slider balance passage time against discomfort exposure while preserving the worst known leg. Wind-only ranking is enabled by default and remembered. Extra comfort limits never reduce the ordinary engines' budgets; All initially selects the earliest validated arrival. Quick uses hardened contour routing with independent chronological validation. Standard provides bounded adaptive search; Professional keeps a validated Quick candidate and searches for a faster route with broader recovery methods. All support plugin-managed GSHHG shorelines; optional chart-backed safety requires a compatible host.
+      Improved optional chart-awareness performance with a compatible enhanced host; stock OpenCPN retains ordinary weather routing and GSHHG land avoidance. Check existing OpenCPN routes for charted land, drying areas, hazards, clearance and optional minimum depth without altering their waypoints. A per-leg report and chart markers distinguish hazards from unavailable coverage or depth; cancellation produces a partial report and route or chart changes invalidate results. Chart checks require a compatible host. WeatherRouting offers Auto, Quick, Standard, Professional and All (slow), with independent saved engine settings and explicit search presets. Auto falls back through Quick and Standard to Professional up to 400% effort. All compares four engines, including the internal Alternative engine, and shares a bounded extra-search allowance across successful engines. Optional fastest/comfort alternatives also work with individual engines and Auto, with saved percentage and seconds limits. A retained-route comparison table and slider balance passage time against discomfort exposure while preserving the worst known leg. Wind-only ranking is enabled by default and remembered. Extra comfort limits never reduce the ordinary engines' budgets; All initially selects the earliest validated arrival. Quick uses hardened contour routing with independent chronological validation. Standard provides bounded adaptive search; Professional keeps a validated Quick candidate and searches for a faster route with broader recovery methods. All support plugin-managed GSHHG shorelines; optional chart-backed safety requires a compatible host.
     </description>
     <target>debian-x86_64</target>
     <build-target>debian</build-target>
@@ -3090,22 +3090,22 @@ https://dl.cloudsmith.io/public/opencpn/ocpn_draw-alpha/raw/names/ocpn_draw_pi-1
     <target-version>12</target-version>
     <target-arch>x86_64</target-arch>
     <tarball-url>
-      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.25.0-debian-x86_64-12-x86_64-tarball/versions/1.25.0+1332.b15127a/xweather_routing_pi-1.25.0-debian-x86_64-12-bookworm.tar.gz
+      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.26.0-debian-x86_64-12-x86_64-tarball/versions/1.26.0+1426.caa9152/xweather_routing_pi-1.26.0-debian-x86_64-12-bookworm.tar.gz
     </tarball-url>
-    <tarball-checksum> e7fbb045acd3e0f17561e3721aa540cd8735a845f6df16cefdd8e2a3224f5289 </tarball-checksum>
+    <tarball-checksum> 03c530719c071e048aec8075e028278d081cf426eefeb5e46cf71e889561cd79 </tarball-checksum>
     <info-url> https://github.com/pob220/xweather_routing_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> xWeatherRouting </name>
-    <version> 1.25.0 </version>
+    <version> 1.26.0 </version>
     <release> 0 </release>
-    <summary>Weather routing, passage planning and existing-route chart checks.</summary>
+    <summary>Weather routing, faster optional chart awareness and route checks.</summary>
     <api-version> 1.21 </api-version>
     <open-source> yes </open-source>
     <author> Sean d'Epagnier; Weather Routing Plugin Team </author>
     <source> https://github.com/pob220/xweather_routing_pi </source>
     <description>
-      Check existing OpenCPN routes for charted land, drying areas, hazards, clearance and optional minimum depth without altering their waypoints. A per-leg report and chart markers distinguish hazards from unavailable coverage or depth; cancellation produces a partial report and route or chart changes invalidate results. Chart checks require a compatible host. WeatherRouting offers Auto, Quick, Standard, Professional and All (slow), with independent saved engine settings and explicit search presets. Auto falls back through Quick and Standard to Professional up to 400% effort. All compares four engines, including the internal Alternative engine, and shares a bounded extra-search allowance across successful engines. Optional fastest/comfort alternatives also work with individual engines and Auto, with saved percentage and seconds limits. A retained-route comparison table and slider balance passage time against discomfort exposure while preserving the worst known leg. Wind-only ranking is enabled by default and remembered. Extra comfort limits never reduce the ordinary engines' budgets; All initially selects the earliest validated arrival. Quick uses hardened contour routing with independent chronological validation. Standard provides bounded adaptive search; Professional keeps a validated Quick candidate and searches for a faster route with broader recovery methods. All support plugin-managed GSHHG shorelines; optional chart-backed safety requires a compatible host.
+      Improved optional chart-awareness performance with a compatible enhanced host; stock OpenCPN retains ordinary weather routing and GSHHG land avoidance. Check existing OpenCPN routes for charted land, drying areas, hazards, clearance and optional minimum depth without altering their waypoints. A per-leg report and chart markers distinguish hazards from unavailable coverage or depth; cancellation produces a partial report and route or chart changes invalidate results. Chart checks require a compatible host. WeatherRouting offers Auto, Quick, Standard, Professional and All (slow), with independent saved engine settings and explicit search presets. Auto falls back through Quick and Standard to Professional up to 400% effort. All compares four engines, including the internal Alternative engine, and shares a bounded extra-search allowance across successful engines. Optional fastest/comfort alternatives also work with individual engines and Auto, with saved percentage and seconds limits. A retained-route comparison table and slider balance passage time against discomfort exposure while preserving the worst known leg. Wind-only ranking is enabled by default and remembered. Extra comfort limits never reduce the ordinary engines' budgets; All initially selects the earliest validated arrival. Quick uses hardened contour routing with independent chronological validation. Standard provides bounded adaptive search; Professional keeps a validated Quick candidate and searches for a faster route with broader recovery methods. All support plugin-managed GSHHG shorelines; optional chart-backed safety requires a compatible host.
     </description>
     <target>android-arm64</target>
     <build-target>android</build-target>
@@ -3113,9 +3113,9 @@ https://dl.cloudsmith.io/public/opencpn/ocpn_draw-alpha/raw/names/ocpn_draw_pi-1
     <target-version>16</target-version>
     <target-arch>arm64</target-arch>
     <tarball-url>
-      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.25.0-android-arm64-16-arm64-tarball/versions/1.25.0+1332.b15127a/xweather_routing_pi-1.25.0-android-arm64-16-android-arm64.tar.gz
+      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.26.0-android-arm64-16-arm64-tarball/versions/1.26.0+1426.caa9152/xweather_routing_pi-1.26.0-android-arm64-16-android-arm64.tar.gz
     </tarball-url>
-    <tarball-checksum> df2bb1b90ed2a0bc17b84d141dd28e3adddee1d1493755daed9ea8643f661e7c </tarball-checksum>
+    <tarball-checksum> 43e3b9faa0eb3da97398925787c5c658fa7c854b658de2fcd51a9ffec672c1eb </tarball-checksum>
     <info-url> https://github.com/pob220/xweather_routing_pi </info-url>
   </plugin>
 </plugins>
