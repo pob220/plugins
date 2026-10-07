@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <plugins>
   <version>0.0.0</version>
-  <date>2026-10-06 23:15</date>
+  <date>2026-10-07 15:28</date>
   <plugin version="1">
     <name> Testplugin </name>
     <version> 1.0.361.0 </version>
@@ -2867,7 +2867,7 @@ https://dl.cloudsmith.io/public/opencpn/ocpn_draw-alpha/raw/names/ocpn_draw_pi-1
   </plugin>
   <plugin version="1">
     <name> xWeatherRouting </name>
-    <version> 1.26.0 </version>
+    <version> 1.27.0 </version>
     <release> 0 </release>
     <summary>Weather routing, faster optional chart awareness and route checks.</summary>
     <api-version> 1.21 </api-version>
@@ -2883,14 +2883,14 @@ https://dl.cloudsmith.io/public/opencpn/ocpn_draw-alpha/raw/names/ocpn_draw_pi-1
     <target-version>10.0.20348</target-version>
     <target-arch>x86</target-arch>
     <tarball-url>
-      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.26.0-msvc-wx32-10.0.20348-x86-tarball/versions/1.26.0+1426.caa9152/xweather_routing_pi-1.26.0-msvc-x86-wx32-10.0.20348-MSVC.tar.gz
+      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.27.0-msvc-wx32-10.0.20348-x86-tarball/versions/1.27.0+1450.51be6df/xweather_routing_pi-1.27.0-msvc-x86-wx32-10.0.20348-MSVC.tar.gz
     </tarball-url>
-    <tarball-checksum> ff332bd1c0f9d079be9100df8a80035ed7f02a03c39e7be7fdc08b423f58f607 </tarball-checksum>
+    <tarball-checksum> bbe6ec3134a01b399e4a1490215664511f569c5a18f8a9f03df51f43d53f4507 </tarball-checksum>
     <info-url> https://github.com/pob220/xweather_routing_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> xWeatherRouting </name>
-    <version> 1.26.0 </version>
+    <version> 1.27.0 </version>
     <release> 0 </release>
     <summary>Weather routing, faster optional chart awareness and route checks.</summary>
     <api-version> 1.21 </api-version>
@@ -2906,14 +2906,14 @@ https://dl.cloudsmith.io/public/opencpn/ocpn_draw-alpha/raw/names/ocpn_draw_pi-1
     <target-version>10</target-version>
     <target-arch>x86_64</target-arch>
     <tarball-url>
-      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.26.0-msvc-64-10-x86_64-tarball/versions/1.26.0+1426.caa9152/xweather_routing_pi-1.26.0-msvc-64-x86_64-10.0-MSVC-x64.tar.gz
+      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.27.0-msvc-64-10-x86_64-tarball/versions/1.27.0+1450.51be6df/xweather_routing_pi-1.27.0-msvc-64-x86_64-10.0-MSVC-x64.tar.gz
     </tarball-url>
-    <tarball-checksum> 25b5aebe0449d87032c4d992eeed9949ddbe0cb7e1de6ec16b8187c001828b14 </tarball-checksum>
+    <tarball-checksum> b0009f5827fb64407099c8df030ae35ec62b5fcb076f1e0d271d60fb0a389e05 </tarball-checksum>
     <info-url> https://github.com/pob220/xweather_routing_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> xWeatherRouting </name>
-    <version> 1.26.0 </version>
+    <version> 1.27.0 </version>
     <release> 0 </release>
     <summary>Weather routing, faster optional chart awareness and route checks.</summary>
     <api-version> 1.21 </api-version>
@@ -2929,14 +2929,14 @@ https://dl.cloudsmith.io/public/opencpn/ocpn_draw-alpha/raw/names/ocpn_draw_pi-1
     <target-version>13</target-version>
     <target-arch>x86_64</target-arch>
     <tarball-url>
-      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.26.0-debian-x86_64-13-x86_64-tarball/versions/1.26.0+1426.caa9152/xweather_routing_pi-1.26.0-debian-x86_64-13-trixie.tar.gz
+      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.27.0-debian-x86_64-13-x86_64-tarball/versions/1.27.0+1450.51be6df/xweather_routing_pi-1.27.0-debian-x86_64-13-trixie.tar.gz
     </tarball-url>
-    <tarball-checksum> 1e9faa21414e95ec1e9c3c6178187c3c82884dc4f3f1fbddd8052f3c89d5af0b </tarball-checksum>
+    <tarball-checksum> abcb2c0ebcdcf0b10ce2da6423903a205db4b153baaef0d9f3f204305fddae84 </tarball-checksum>
     <info-url> https://github.com/pob220/xweather_routing_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> xWeatherRouting </name>
-    <version> 1.26.0 </version>
+    <version> 1.27.0 </version>
     <release> 0 </release>
     <summary>Weather routing, faster optional chart awareness and route checks.</summary>
     <api-version> 1.21 </api-version>
@@ -2952,14 +2952,14 @@ https://dl.cloudsmith.io/public/opencpn/ocpn_draw-alpha/raw/names/ocpn_draw_pi-1
     <target-version>24.04</target-version>
     <target-arch>x86_64</target-arch>
     <tarball-url>
-      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.26.0-ubuntu-x86_64-24.04-x86_64-tarball/versions/1.26.0+1426.caa9152/xweather_routing_pi-1.26.0-ubuntu-x86_64-24.04-noble.tar.gz
+      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.27.0-ubuntu-x86_64-24.04-x86_64-tarball/versions/1.27.0+1450.51be6df/xweather_routing_pi-1.27.0-ubuntu-x86_64-24.04-noble.tar.gz
     </tarball-url>
-    <tarball-checksum> 6853a6f66787ec04f4b80b05eb8b712a274240045c41bbda4da13e692e194ac0 </tarball-checksum>
+    <tarball-checksum> 7fb4446bc59604cc71e1d2b5edbedd8fee95c75c6cf598e72d4a16a1411136bf </tarball-checksum>
     <info-url> https://github.com/pob220/xweather_routing_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> xWeatherRouting </name>
-    <version> 1.26.0 </version>
+    <version> 1.27.0 </version>
     <release> 0 </release>
     <summary>Weather routing, faster optional chart awareness and route checks.</summary>
     <api-version> 1.21 </api-version>
@@ -2975,14 +2975,14 @@ https://dl.cloudsmith.io/public/opencpn/ocpn_draw-alpha/raw/names/ocpn_draw_pi-1
     <target-version>15.3.2</target-version>
     <target-arch>arm64</target-arch>
     <tarball-url>
-      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.26.0-darwin-wx32-15.3.2-arm64-tarball/versions/1.26.0+1426.caa9152/xweather_routing_pi-1.26.0-darwin-wx32-arm64-15.3.2-macos-arm64.tar.gz
+      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.27.0-darwin-wx32-15.3.2-arm64-tarball/versions/1.27.0+1450.51be6df/xweather_routing_pi-1.27.0-darwin-wx32-arm64-15.3.2-macos-arm64.tar.gz
     </tarball-url>
-    <tarball-checksum> a1f35a7dc67b28d0918cee2320091aefd1e6e958144d839365fd69a08c65dc5b </tarball-checksum>
+    <tarball-checksum> 0f913cccd24bfc176a41c25829a5f5f56da6fc8472273397314b57f53672fa74 </tarball-checksum>
     <info-url> https://github.com/pob220/xweather_routing_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> xWeatherRouting </name>
-    <version> 1.26.0 </version>
+    <version> 1.27.0 </version>
     <release> 0 </release>
     <summary>Weather routing, faster optional chart awareness and route checks.</summary>
     <api-version> 1.21 </api-version>
@@ -2998,14 +2998,14 @@ https://dl.cloudsmith.io/public/opencpn/ocpn_draw-alpha/raw/names/ocpn_draw_pi-1
     <target-version>22.04</target-version>
     <target-arch>x86_64</target-arch>
     <tarball-url>
-      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.26.0-ubuntu-x86_64-22.04-x86_64-tarball/versions/1.26.0+1426.caa9152/xweather_routing_pi-1.26.0-ubuntu-x86_64-22.04-jammy.tar.gz
+      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.27.0-ubuntu-x86_64-22.04-x86_64-tarball/versions/1.27.0+1450.51be6df/xweather_routing_pi-1.27.0-ubuntu-x86_64-22.04-jammy.tar.gz
     </tarball-url>
-    <tarball-checksum> d008516ac6467f9202a14ea0430a0c241bed0b6be6891b12cf81873b00bad272 </tarball-checksum>
+    <tarball-checksum> ea97c57c96903716cb00986e3e4e1dca0d2af577b5aa5c03b60f99420e80eab3 </tarball-checksum>
     <info-url> https://github.com/pob220/xweather_routing_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> xWeatherRouting </name>
-    <version> 1.26.0 </version>
+    <version> 1.27.0 </version>
     <release> 0 </release>
     <summary>Weather routing, faster optional chart awareness and route checks.</summary>
     <api-version> 1.21 </api-version>
@@ -3021,14 +3021,14 @@ https://dl.cloudsmith.io/public/opencpn/ocpn_draw-alpha/raw/names/ocpn_draw_pi-1
     <target-version>25.08</target-version>
     <target-arch>x86_64</target-arch>
     <tarball-url>
-      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.26.0-flatpak-32-x86_64-25.08-x86_64-tarball/versions/1.26.0+1426.caa9152/xweather_routing_pi-1.26.0-x86_64-32_flatpak-25.08.tar.gz
+      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.27.0-flatpak-32-x86_64-25.08-x86_64-tarball/versions/1.27.0+1450.51be6df/xweather_routing_pi-1.27.0-x86_64-32_flatpak-25.08.tar.gz
     </tarball-url>
-    <tarball-checksum> f0d2047eb21b422fe9d3b6b173f40ddfe9238920be553e0d8293cb75831376df </tarball-checksum>
+    <tarball-checksum> a75249032a610b6dc5d192446a1f531d191a9f5b07cc78cbf0c25484543a8f21 </tarball-checksum>
     <info-url> https://github.com/pob220/xweather_routing_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> xWeatherRouting </name>
-    <version> 1.26.0 </version>
+    <version> 1.27.0 </version>
     <release> 0 </release>
     <summary>Weather routing, faster optional chart awareness and route checks.</summary>
     <api-version> 1.21 </api-version>
@@ -3044,14 +3044,14 @@ https://dl.cloudsmith.io/public/opencpn/ocpn_draw-alpha/raw/names/ocpn_draw_pi-1
     <target-version>25.08</target-version>
     <target-arch>aarch64</target-arch>
     <tarball-url>
-      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.26.0-flatpak-32-aarch64-25.08-aarch64-tarball/versions/1.26.0+1426.caa9152/xweather_routing_pi-1.26.0-aarch64-32_flatpak-25.08.tar.gz
+      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.27.0-flatpak-32-aarch64-25.08-aarch64-tarball/versions/1.27.0+1450.51be6df/xweather_routing_pi-1.27.0-aarch64-32_flatpak-25.08.tar.gz
     </tarball-url>
-    <tarball-checksum> e97bb1164bba88756dcf2effb45b1d143f55e389e235755b2d47dd7fbb72563a </tarball-checksum>
+    <tarball-checksum> 92d22c41f5543f07ae684634c572183eb661b0221feaf4a97dd4ed3feed669f6 </tarball-checksum>
     <info-url> https://github.com/pob220/xweather_routing_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> xWeatherRouting </name>
-    <version> 1.26.0 </version>
+    <version> 1.27.0 </version>
     <release> 0 </release>
     <summary>Weather routing, faster optional chart awareness and route checks.</summary>
     <api-version> 1.21 </api-version>
@@ -3067,14 +3067,14 @@ https://dl.cloudsmith.io/public/opencpn/ocpn_draw-alpha/raw/names/ocpn_draw_pi-1
     <target-version>12</target-version>
     <target-arch>arm64</target-arch>
     <tarball-url>
-      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.26.0-debian-arm64-12-arm64-tarball/versions/1.26.0+1426.caa9152/xweather_routing_pi-1.26.0-debian-arm64-12-bookworm-arm64.tar.gz
+      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.27.0-debian-arm64-12-arm64-tarball/versions/1.27.0+1450.51be6df/xweather_routing_pi-1.27.0-debian-arm64-12-bookworm-arm64.tar.gz
     </tarball-url>
-    <tarball-checksum> 9498f772988620d79263c240fdf944b2596b58a1803010c304b16b82a0586e22 </tarball-checksum>
+    <tarball-checksum> c2b71b82b7215851db4c3bed87420ead877d752b229302e619772f3112c160b4 </tarball-checksum>
     <info-url> https://github.com/pob220/xweather_routing_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> xWeatherRouting </name>
-    <version> 1.26.0 </version>
+    <version> 1.27.0 </version>
     <release> 0 </release>
     <summary>Weather routing, faster optional chart awareness and route checks.</summary>
     <api-version> 1.21 </api-version>
@@ -3090,14 +3090,14 @@ https://dl.cloudsmith.io/public/opencpn/ocpn_draw-alpha/raw/names/ocpn_draw_pi-1
     <target-version>12</target-version>
     <target-arch>x86_64</target-arch>
     <tarball-url>
-      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.26.0-debian-x86_64-12-x86_64-tarball/versions/1.26.0+1426.caa9152/xweather_routing_pi-1.26.0-debian-x86_64-12-bookworm.tar.gz
+      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.27.0-debian-x86_64-12-x86_64-tarball/versions/1.27.0+1450.51be6df/xweather_routing_pi-1.27.0-debian-x86_64-12-bookworm.tar.gz
     </tarball-url>
-    <tarball-checksum> 03c530719c071e048aec8075e028278d081cf426eefeb5e46cf71e889561cd79 </tarball-checksum>
+    <tarball-checksum> 9481206559f39d786693793502e4b0b19d3edc7511e644446637b0c19cc3392a </tarball-checksum>
     <info-url> https://github.com/pob220/xweather_routing_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> xWeatherRouting </name>
-    <version> 1.26.0 </version>
+    <version> 1.27.0 </version>
     <release> 0 </release>
     <summary>Weather routing, faster optional chart awareness and route checks.</summary>
     <api-version> 1.21 </api-version>
@@ -3113,9 +3113,9 @@ https://dl.cloudsmith.io/public/opencpn/ocpn_draw-alpha/raw/names/ocpn_draw_pi-1
     <target-version>16</target-version>
     <target-arch>arm64</target-arch>
     <tarball-url>
-      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.26.0-android-arm64-16-arm64-tarball/versions/1.26.0+1426.caa9152/xweather_routing_pi-1.26.0-android-arm64-16-android-arm64.tar.gz
+      https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.27.0-android-arm64-16-arm64-tarball/versions/1.27.0+1450.51be6df/xweather_routing_pi-1.27.0-android-arm64-16-android-arm64.tar.gz
     </tarball-url>
-    <tarball-checksum> 43e3b9faa0eb3da97398925787c5c658fa7c854b658de2fcd51a9ffec672c1eb </tarball-checksum>
+    <tarball-checksum> 0f5aef4e02c493a3b46f78a0de5de5bc65a00307fa71b8137219f802a8913a64 </tarball-checksum>
     <info-url> https://github.com/pob220/xweather_routing_pi </info-url>
   </plugin>
 </plugins>

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin version="1">
   <name> xWeatherRouting </name>
-  <version> 1.26.0 </version>
+  <version> 1.27.0 </version>
   <release> 0 </release>
   <summary>Weather routing, faster optional chart awareness and route checks.</summary>
   <api-version> 1.21 </api-version>
@@ -17,8 +17,8 @@
   <target-version>16</target-version>
   <target-arch>arm64</target-arch>
   <tarball-url>
-    https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.26.0-android-arm64-16-arm64-tarball/versions/1.26.0+1426.caa9152/xweather_routing_pi-1.26.0-android-arm64-16-android-arm64.tar.gz
+    https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.27.0-android-arm64-16-arm64-tarball/versions/1.27.0+1450.51be6df/xweather_routing_pi-1.27.0-android-arm64-16-android-arm64.tar.gz
   </tarball-url>
-  <tarball-checksum> 43e3b9faa0eb3da97398925787c5c658fa7c854b658de2fcd51a9ffec672c1eb </tarball-checksum>
+  <tarball-checksum> 0f5aef4e02c493a3b46f78a0de5de5bc65a00307fa71b8137219f802a8913a64 </tarball-checksum>
   <info-url> https://github.com/pob220/xweather_routing_pi </info-url>
 </plugin>

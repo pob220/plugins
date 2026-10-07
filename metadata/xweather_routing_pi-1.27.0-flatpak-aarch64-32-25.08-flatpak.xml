@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin version="1">
   <name> xWeatherRouting </name>
-  <version> 1.26.0 </version>
+  <version> 1.27.0 </version>
   <release> 0 </release>
   <summary>Weather routing, faster optional chart awareness and route checks.</summary>
   <api-version> 1.21 </api-version>
@@ -17,8 +17,8 @@
   <target-version>25.08</target-version>
   <target-arch>aarch64</target-arch>
   <tarball-url>
-    https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.26.0-flatpak-32-aarch64-25.08-aarch64-tarball/versions/1.26.0+1426.caa9152/xweather_routing_pi-1.26.0-aarch64-32_flatpak-25.08.tar.gz
+    https://dl.cloudsmith.io/public/pob220/xweather-routing-alpha-oss/raw/names/xweather_routing_pi-1.27.0-flatpak-32-aarch64-25.08-aarch64-tarball/versions/1.27.0+1450.51be6df/xweather_routing_pi-1.27.0-aarch64-32_flatpak-25.08.tar.gz
   </tarball-url>
-  <tarball-checksum> e97bb1164bba88756dcf2effb45b1d143f55e389e235755b2d47dd7fbb72563a </tarball-checksum>
+  <tarball-checksum> 92d22c41f5543f07ae684634c572183eb661b0221feaf4a97dd4ed3feed669f6 </tarball-checksum>
   <info-url> https://github.com/pob220/xweather_routing_pi </info-url>
 </plugin>
